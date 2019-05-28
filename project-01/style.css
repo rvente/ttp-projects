@@ -1,5 +1,5 @@
 .header .header-top {
-    background: #FEE932 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     height: 50px;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .join-us>p {
-    background: #089549 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     line-height: 50px;
     margin: 0;
     padding: 0;
 }
 
 .header .header-top .join-us p a {
-    background: #089549 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     color: #fff;
     float: right;
     font-size: 15px;
@@ -76,7 +76,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: 11px;
-    color: #f4d742;
+    color: #F4D742;
 }
 
 .carosal-area {
@@ -125,7 +125,7 @@
 
 .carosal-area .text>h5.white-button a {
     background: #fff;
-    color: #FEE932;
+    color: #F4D742;
 }
 
 .carosal-area .owl-prev {
@@ -141,7 +141,7 @@
 }
 
 .carosal-area .owl-theme .owl-nav [class*="owl-"] {
-    background: #1cb060 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     border-radius: 50%;
     font-size: 25px;
     height: 50px;
@@ -822,7 +822,7 @@
 
 .volunteer_area .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #F4D041;
     border-radius: 5px;
     color: #01d262;
     font-size: 25px;
@@ -833,7 +833,7 @@
 }
 
 .volunteer_area .owl-theme .owl-nav i:hover {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
@@ -871,7 +871,7 @@
 }
 
 .carosal_bottom .item h5 i {
-    color: #1dbb6b;
+    color: #F4D041;
     font-size: 60px;
 }
 
@@ -950,11 +950,11 @@
 }
 
 .letast_news .single_news:hover .texts h3 {
-    color: #30dd85;
+    color: #F4D041;
 }
 
 .letast_news .single_news:hover .texts h3 a {
-    color: #30dd85;
+    color: #F4D041;
     text-decoration: underline;
 }
 
@@ -1076,7 +1076,7 @@
 }
 
 .footer .footer_bottom p a {
-    color: #2ad880;
+    color: #F4D041;
     text-decoration: none;
 }
 
@@ -1115,7 +1115,7 @@
 }
 
 .block-wrapper .for-border {
-    border-left: 1px solid #2be587;
+    border-left: 1px solid #F4D041;
 }
 
 .block-wrapper .for-border:first-child {
