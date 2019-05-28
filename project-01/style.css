@@ -197,7 +197,7 @@ h2.white-button a {
 }
 
 .wrapper section>h2::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -280,16 +280,16 @@ h2.white-button a {
 }
 
 .our_activity .single-Promo:hover>h2 a {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .our_activity .single-Promo:hover>.promo-icon i {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
 .our_activity .single-Promo:hover>h2::before {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
@@ -420,7 +420,7 @@ h2.white-button a {
 }
 
 .events_section_area .events_single:hover h3 {
-    color: #01d262;
+    color: #F4D041;
     text-decoration: underline;
 }
 
@@ -465,7 +465,7 @@ h2.white-button a {
 }
 
 .our_cuauses .our_cuauses_single .item p span {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .our_cuauses .our_cuauses_single .item p.progress-top {
@@ -484,7 +484,7 @@ h2.white-button a {
 }
 
 .our_cuauses .progress-bar {
-    background-color: #01d262;
+    background-color: #F4D041;
 }
 
 .our_cuauses .progress-text {
@@ -520,7 +520,7 @@ h2.white-button a {
 }
 
 .our_cuauses h2::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -534,7 +534,7 @@ h2.white-button a {
 }
 
 .our_cuauses h2.borderes::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 0px;
@@ -568,12 +568,12 @@ h2.white-button a {
 }
 
 .our_cuauses .our_cuauses_single .item .for_padding:hover>h2 {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .our_cuauses .our_cuauses_single .item .for_padding:hover>h2 a {
     color: #fff;
-    background: #01d262;
+    background: #F4D041;
 }
 
 .our_cuauses .owl-theme .owl-nav {
@@ -595,9 +595,9 @@ h2.white-button a {
 
 .our_cuauses .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #F4D041;
     border-radius: 5px;
-    color: #01d262;
+    color: #F4D041;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -606,7 +606,7 @@ h2.white-button a {
 }
 
 .our_cuauses .owl-theme .owl-nav i:hover {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
@@ -615,7 +615,7 @@ h2.white-button a {
 }
 
 .donors .donors_input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     float: left;
     height: 600px;
     text-align: center;
@@ -657,7 +657,7 @@ h2.white-button a {
 }
 
 .donors .donors_input h5 input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     border: 1px solid #fff;
     border-radius: 10px;
     color: #fff;
@@ -683,9 +683,9 @@ h2.white-button a {
 
 .donors .donors_input input[type="submit"] {
     background: #fff none repeat scroll 0 0;
-    border: 2px solid #01d262;
+    border: 2px solid #F4D041;
     border-radius: 10px;
-    color: #01d262;
+    color: #F4D041;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -700,7 +700,7 @@ h2.white-button a {
 
 .donors .donors_input h4 select {
     width: 500px;
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     border: none;
     padding: 17px 20px;
     border-radius: 10px;
@@ -743,7 +743,7 @@ h2.white-button a {
 }
 
 .donors .donors_image .item p span {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .donors .donors_image .owl-theme .owl-nav {
@@ -753,8 +753,8 @@ h2.white-button a {
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #01d262 none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    background: #F4D041 none repeat scroll 0 0;
+    border: 1px solid #F4D041;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
@@ -833,7 +833,7 @@ h2.white-button a {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #F4D041;
     border-radius: 5px;
-    color: #01d262;
+    color: #F4D041;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
