@@ -128,6 +128,11 @@
     color: #FEE932;
 }
 
+h2.white-button a {
+    background: #fff;
+    color: #FEE932;
+}
+
 .carosal-area .owl-prev {
     left: 0;
     position: absolute;
@@ -329,7 +334,7 @@
     max-width: 700px;
     margin: 0 auto;
     height: 10px;
-    background-color: #1eb464;
+    background-color: #FEE932;
 }
 
 .donate_section .progress-bar {
@@ -522,6 +527,10 @@
     left: 25%;
     position: absolute;
     width: 50%;
+}
+
+.borderes {
+  color: #FEE932;
 }
 
 .our_cuauses h2.borderes::before {
