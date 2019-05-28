@@ -1,5 +1,5 @@
 .header .header-top {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     height: 50px;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .join-us>p {
-    background: #089549 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     line-height: 50px;
     margin: 0;
     padding: 0;
 }
 
 .header .header-top .join-us p a {
-    background: #089549 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     color: #fff;
     float: right;
     font-size: 15px;
@@ -76,11 +76,11 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: 11px;
-    color: #01d262;
+    color: #F4D742;
 }
 
 .carosal-area {
-    background-image: url("img/carosal-bg.jpg");
+    background-image: url("img/make-a-bee-friendly-garden.jpg");
     background-size: cover;
 }
 
@@ -125,7 +125,12 @@
 
 .carosal-area .text>h5.white-button a {
     background: #fff;
-    color: #01d262;
+    color: #F4D742;
+}
+
+h2.white-button a {
+    background: #fff;
+    color: #FEE932;
 }
 
 .carosal-area .owl-prev {
@@ -141,7 +146,7 @@
 }
 
 .carosal-area .owl-theme .owl-nav [class*="owl-"] {
-    background: #1cb060 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     border-radius: 50%;
     font-size: 25px;
     height: 50px;
@@ -192,7 +197,7 @@
 }
 
 .wrapper section>h2::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -275,16 +280,16 @@
 }
 
 .our_activity .single-Promo:hover>h2 a {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .our_activity .single-Promo:hover>.promo-icon i {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
 .our_activity .single-Promo:hover>h2::before {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
@@ -329,7 +334,7 @@
     max-width: 700px;
     margin: 0 auto;
     height: 10px;
-    background-color: #1eb464;
+    background-color: #FEE932;
 }
 
 .donate_section .progress-bar {
@@ -415,7 +420,7 @@
 }
 
 .events_section_area .events_single:hover h3 {
-    color: #01d262;
+    color: #F4D041;
     text-decoration: underline;
 }
 
@@ -460,7 +465,7 @@
 }
 
 .our_cuauses .our_cuauses_single .item p span {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .our_cuauses .our_cuauses_single .item p.progress-top {
@@ -479,7 +484,7 @@
 }
 
 .our_cuauses .progress-bar {
-    background-color: #01d262;
+    background-color: #F4D041;
 }
 
 .our_cuauses .progress-text {
@@ -515,7 +520,7 @@
 }
 
 .our_cuauses h2::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -524,8 +529,12 @@
     width: 50%;
 }
 
+.borderes {
+  color: #FEE932;
+}
+
 .our_cuauses h2.borderes::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 0px;
@@ -559,12 +568,12 @@
 }
 
 .our_cuauses .our_cuauses_single .item .for_padding:hover>h2 {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .our_cuauses .our_cuauses_single .item .for_padding:hover>h2 a {
     color: #fff;
-    background: #01d262;
+    background: #F4D041;
 }
 
 .our_cuauses .owl-theme .owl-nav {
@@ -586,9 +595,9 @@
 
 .our_cuauses .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #F4D041;
     border-radius: 5px;
-    color: #01d262;
+    color: #F4D041;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -597,7 +606,7 @@
 }
 
 .our_cuauses .owl-theme .owl-nav i:hover {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
@@ -606,7 +615,7 @@
 }
 
 .donors .donors_input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     float: left;
     height: 600px;
     text-align: center;
@@ -648,7 +657,7 @@
 }
 
 .donors .donors_input h5 input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     border: 1px solid #fff;
     border-radius: 10px;
     color: #fff;
@@ -674,9 +683,9 @@
 
 .donors .donors_input input[type="submit"] {
     background: #fff none repeat scroll 0 0;
-    border: 2px solid #01d262;
+    border: 2px solid #F4D041;
     border-radius: 10px;
-    color: #01d262;
+    color: #F4D041;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -691,7 +700,7 @@
 
 .donors .donors_input h4 select {
     width: 500px;
-    background: #01d262 none repeat scroll 0 0;
+    background: #F4D041 none repeat scroll 0 0;
     border: none;
     padding: 17px 20px;
     border-radius: 10px;
@@ -734,7 +743,7 @@
 }
 
 .donors .donors_image .item p span {
-    color: #01d262;
+    color: #F4D041;
 }
 
 .donors .donors_image .owl-theme .owl-nav {
@@ -744,8 +753,8 @@
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #01d262 none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    background: #F4D041 none repeat scroll 0 0;
+    border: 1px solid #F4D041;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
@@ -822,9 +831,9 @@
 
 .volunteer_area .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #F4D041;
     border-radius: 5px;
-    color: #01d262;
+    color: #F4D041;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -833,7 +842,7 @@
 }
 
 .volunteer_area .owl-theme .owl-nav i:hover {
-    background: #01d262;
+    background: #F4D041;
     color: #fff;
 }
 
@@ -871,7 +880,7 @@
 }
 
 .carosal_bottom .item h5 i {
-    color: #1dbb6b;
+    color: #F4D041;
     font-size: 60px;
 }
 
@@ -950,11 +959,11 @@
 }
 
 .letast_news .single_news:hover .texts h3 {
-    color: #30dd85;
+    color: #F4D041;
 }
 
 .letast_news .single_news:hover .texts h3 a {
-    color: #30dd85;
+    color: #F4D041;
     text-decoration: underline;
 }
 
@@ -1076,7 +1085,7 @@
 }
 
 .footer .footer_bottom p a {
-    color: #2ad880;
+    color: #F4D041;
     text-decoration: none;
 }
 
@@ -1115,7 +1124,7 @@
 }
 
 .block-wrapper .for-border {
-    border-left: 1px solid #2be587;
+    border-left: 1px solid #F4D041;
 }
 
 .block-wrapper .for-border:first-child {
