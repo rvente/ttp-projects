@@ -76,7 +76,11 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: 11px;
+<<<<<<< HEAD
     color: #F4D742;
+=======
+    color: #f4d041;
+>>>>>>> 4eebd670908458b9dc66e26f62ffcb85bc046da3
 }
 
 .carosal-area {
@@ -126,6 +130,11 @@
 .carosal-area .text>h5.white-button a {
     background: #fff;
     color: #F4D742;
+}
+
+h2.white-button a {
+    background: #fff;
+    color: #FEE932;
 }
 
 .carosal-area .owl-prev {
@@ -329,7 +338,7 @@
     max-width: 700px;
     margin: 0 auto;
     height: 10px;
-    background-color: #1eb464;
+    background-color: #FEE932;
 }
 
 .donate_section .progress-bar {
@@ -522,6 +531,10 @@
     left: 25%;
     position: absolute;
     width: 50%;
+}
+
+.borderes {
+  color: #FEE932;
 }
 
 .our_cuauses h2.borderes::before {
