@@ -1,5 +1,5 @@
 .header .header-top {
-    background: #01d262 none repeat scroll 0 0;
+    background: #FEE932 none repeat scroll 0 0;
     height: 50px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .carosal-area {
-    background-image: url("img/carosal-bg.jpg");
+    background-image: url("img/make-a-bee-friendly-garden.jpg");
     background-size: cover;
 }
 
@@ -125,7 +125,7 @@
 
 .carosal-area .text>h5.white-button a {
     background: #fff;
-    color: #01d262;
+    color: #FEE932;
 }
 
 .carosal-area .owl-prev {
