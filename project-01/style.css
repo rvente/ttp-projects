@@ -1151,3 +1151,16 @@ h2.white-button a {
     display: flex;
     justify-content: center;
 }
+
+
+.donors_input_textbox {
+    background: #F4D041 none repeat scroll 0 0;
+    float: center;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: rgb(91, 91, 91);
+    padding: 17px 20px;
+    resize: none;
+}
