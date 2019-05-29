@@ -560,13 +560,13 @@ h2.white-button a {
 .our_cuauses h2 a {
   background: #fff none repeat scroll 0 0;
   border-radius: 30px;
-  color: #05ce68;
+  color: #F4D041;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   padding: 15px 40px;
   text-decoration: none;
-  border: 1px solid #05ce68;
+  border: 1px solid #F4D041;
 }
 
 .our_cuauses .our_cuauses_single .item {
@@ -1157,7 +1157,7 @@ h2.white-button a {
   width: 100%;
   border: 1px solid #fff;
   border-radius: 10px;
-  color: rgb(91, 91, 91);
+  color: rgb(117, 117, 117);
   padding: 17px 20px;
   resize: none;
 }
