@@ -1,0 +1,24 @@
+/* Part 5 */
+h1 {
+    color: #2F343F;
+    font-family: arial;
+    font-size: 300%;
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5,   {
+    padding-left: 20px;
+    background-color: #2F343F;
+}
+
+button {
+    border: 1px;
+    border-radius: 20px;
+    background-color: #2F343F;
+    color: white;
+}
+p  {
+    color: #2F343F;
+    /* font-family: courier; */
+    font-size: 160%;
+}
