@@ -9,9 +9,8 @@ class Decrement extends Component {
         this.decrement = this.decrement.bind(this);
     }
     decrement = () => {
+        if (this.state.start > 0)
         this.setState({start: this.state.start - 1});
-        if (this.state.start < 0)
-            this.state.start = 0;
     }
     render() {
         let element =
