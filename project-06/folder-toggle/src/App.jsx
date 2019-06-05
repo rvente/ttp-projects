@@ -39,7 +39,7 @@ class Folder extends Component {
         );
         return (
             <div>
-              <h3 className="component-heading">Hide Folder Assignment</h3>
+              <h3 className="component-heading">Part 2: Hide Folder Assignment</h3>
               <div className="component-div">
                 <button onClick={this.show}>{this.state.text}</button>
                 {this.state.show ? listElements : null}
@@ -107,12 +107,12 @@ class FormEdit extends Component {
         let editButton = <button onClick={this.show}>Edit</button>;
         let saveButtons =
             <span>
-              <button onClick={this.saveText}>Save</button>
-              <button onClick={this.discard}>Cancel</button>
+              <button className="save"onClick={this.saveText}>Save</button>
+              <button className="cancel"onClick={this.discard}>Cancel</button>
             </span> ;
         let element =
             <div>
-              <h3 className="component-heading">Form Edit Assignment</h3>
+              <h3 className="component-heading">Part 1: Form Edit Assignment</h3>
             <div className="component-div">
               {this.state.isForm ? form : textElement}<br/>
               {this.state.isForm ? saveButtons : editButton}
