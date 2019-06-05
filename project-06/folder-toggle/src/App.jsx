@@ -1,0 +1,114 @@
+import React , {Component, PropTypes} from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+class Folder extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            show: true
+        };
+    }
+
+    bindMethods(methods) {
+        methods.forEach((item) => {
+            this[item] = this[item].bind(this);
+        });
+    }
+
+    show = () => {
+        this.setState({isForm: true});
+    }
+
+    render() {
+        return <div> Ne</div>;
+    }
+}
+
+class FormEdit extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            firstname: props.firstname,
+            lastname: props.lastname,
+            savefirstname: props.firstname,
+            savelastname: props.lastname,
+            isForm: false
+        };
+
+    }
+    bindMethods(methods) {
+        methods.forEach((item) => {
+            this[item] = this[item].bind(this);
+        });
+    }
+    show = () => {
+        this.setState({isForm: true});
+    }
+    saveText = () => {
+        this.setState({
+            savefirstname: this.state.firstname,
+            savelastname: this.state.lastname,
+            isForm: false
+        });
+    }
+    discard = () => {
+        this.setState({
+            firstname: this.state.savefirstname,
+            lastname: this.state.savelastname,
+            isForm: false
+        });
+    }
+    onInputChange = () => {
+        this.setState({firstname: document.getElementById("firstname").value});
+        this.setState({lastname: document.getElementById("lastname").value});
+    }
+    render() {
+        let form =
+            <form>
+              <input
+                value={this.state.firstname}
+                type="text"
+                id="firstname"
+                onChange={this.onInputChange}
+              />
+              <input
+                value={this.state.lastname}
+                type="text"
+                id="lastname"
+                onChange={this.onInputChange}
+              />
+            </form>;
+        let textElement= <div>{this.state.firstname+ " " + this.state.lastname}</div>;
+        let editButton = <button onClick={this.show}>Edit</button>;
+        let saveButtons =
+            <span>
+              <button onClick={this.saveText}>Save</button>
+              <button onClick={this.discard}>Cancel</button>
+            </span> ;
+        let element =
+            <div>
+              <h3 className="component-heading">Form Edit Assignment</h3>
+            <div className="component-div">
+              {this.state.isForm ? form : textElement}<br/>
+              {this.state.isForm ? saveButtons : editButton}
+            </div>
+            </div>;
+        return element;
+    }
+}
+
+function App() {
+    return (
+        <div className="App">
+          <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" /> 
+            <h2>Ralph Vente Assignment 6</h2>
+            <FormEdit firstname='First Name' lastname='Last Name'/>
+            <Folder/>
+          </header>
+        </div>
+    );
+}
+
+export default App;
