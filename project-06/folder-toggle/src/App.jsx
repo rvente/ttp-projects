@@ -39,6 +39,7 @@ class Folder extends Component {
         );
         return (
             <div>
+              <h3 className="component-heading">Hide Folder Assignment</h3>
               <div className="component-div">
                 <button onClick={this.show}>{this.state.text}</button>
                 {this.state.show ? listElements : null}
