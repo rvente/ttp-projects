@@ -6,7 +6,7 @@ class Folder extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            show: true,
+            show: false,
             text: "View"
         };
     }
@@ -19,27 +19,32 @@ class Folder extends Component {
 
     show = () => {
         if (this.state.show)
-        this.setState({show: false,
-                       text: "hide"
-                      });
+            this.setState({show: false,
+                           text: "View"
+                          });
         else {
             this.setState({show: true,
-                           text: "view"
+                           text: "Hide"
                           });
-            
         }
     }
 
     render() {
-        let listElements = <ul>
-          <li>Folder 1</li>
-          <li>Folder 2</li>
-          <li>Folder 3</li>
-                       </ul>;
-        return <div className="component-div">
-                 <button onClick={this.show}>{this.state.text}</button>
-        {this.state.show ? listElements : null}
-               </div>;
+        let listElements = (
+            <ul>
+              <li>Folder 1</li>
+              <li>Folder 2</li>
+              <li>Folder 3</li>
+            </ul>
+        );
+        return (
+            <div>
+              <div className="component-div">
+                <button onClick={this.show}>{this.state.text}</button>
+                {this.state.show ? listElements : null}
+              </div>
+            </div>
+        );
     }
 }
 

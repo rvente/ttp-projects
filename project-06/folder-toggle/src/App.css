@@ -64,6 +64,15 @@ button:focus {
     margin: 15px;
     transition: all .3s ease-in-out;
 }
+
+.component-div-active {
+    padding: 50px;
+    border: #585c64 dashed 1px;
+    border-radius:10px;
+    margin: 15px;
+    transition: all .1s ease-in-out;
+    max-height: 100px;
+}
 .component-div:hover {
     border-color: white;
     background-color: #30343C;
