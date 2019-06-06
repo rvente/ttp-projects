@@ -1,0 +1,33 @@
+.inner-card-div {
+    text-align: left;
+    flex: 1;
+}
+
+.wrapper {
+    text-align: center;
+    background-color: #DDD;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+    border-style: none;
+    border-color: #FFF;
+}
+.wrapper:hover, .wrapper:focus-within {
+    background-color: #EEE;
+    border-color: #DDD;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+}

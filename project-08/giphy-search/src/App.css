@@ -1,0 +1,24 @@
+.CardContainer {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+}
+
+input {
+    background-color: #222;
+    text-align: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin: auto;
+    border-radius: 100px;
+    height: 35px;
+    transition: .3s;
+}
+
+input:focus {
+    outline: none;
+}
+
